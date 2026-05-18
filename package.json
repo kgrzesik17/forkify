@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe app",
+  "homepage": "https://github.com/kgrzesik17/forkify#readme",
+  "bugs": {
+    "url": "https://github.com/kgrzesik17/forkify/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgrzesik17/forkify.git"
+  },
+  "license": "ISC",
+  "author": "Kacper Grzesik",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.16.4",
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "core-js": "^3.49.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}

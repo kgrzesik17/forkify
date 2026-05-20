@@ -25,6 +25,7 @@ async function controlRecipes() {
     console.log(id);
 
     if (!id) return;
+
     recipeView.renderSpinner();
 
     // 1) loading recipe
@@ -33,6 +34,7 @@ async function controlRecipes() {
     // 2) rendering recipe
     recipeView.render(model.state.recipe);
   } catch (err) {
+    // console.log(err);
     alert(err);
   }
 }

@@ -742,6 +742,7 @@ async function controlRecipes() {
         // 2) rendering recipe
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
+        // console.log(err);
         alert(err);
     }
 }
@@ -2008,14 +2009,14 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
 var _regeneratorRuntime = require("regenerator-runtime");
+var _configJs = require("./config.js");
+var _helpersJs = require("./helpers.js");
 const state = {
     recipe: {}
 };
 const loadRecipe = async function(id) {
     try {
-        const res = await fetch(`https://forkify-api.jonas.io/api/v2/recipes/${id}`);
-        const data = await res.json();
-        if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+        const data = await (0, _helpersJs.getJSON)(`${(0, _configJs.API_URL)}/${id}`);
         const { recipe } = data.data;
         state.recipe = {
             id: recipe.id,
@@ -2027,13 +2028,15 @@ const loadRecipe = async function(id) {
             cookingTime: recipe.cooking_time,
             ingredients: recipe.ingredients
         };
+    // console.log(state.recipe);
     } catch (err) {
-        alert(err);
+        // temp error handling
+        console.error(`${err} \u{1F4A5}\u{1F4A5}\u{1F4A5}`);
+        throw err;
     }
-    console.log(state.recipe);
 };
 
-},{"regenerator-runtime":"f6ot0","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"f6ot0":[function(require,module,exports,__globalThis) {
+},{"regenerator-runtime":"f6ot0","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","./helpers.js":"7nL9P","./config.js":"2hPh4"}],"f6ot0":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -2648,7 +2651,43 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"3wx5k":[function(require,module,exports,__globalThis) {
+},{}],"7nL9P":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getJSON", ()=>getJSON);
+var _regeneratorRuntime = require("regenerator-runtime");
+var _config = require("./config");
+const timeout = function(s) {
+    return new Promise(function(_, reject) {
+        setTimeout(function() {
+            reject(new Error(`Request took too long! Timeout after ${s} second`));
+        }, s * 1000);
+    });
+};
+const getJSON = async function(url) {
+    try {
+        const res = await Promise.race([
+            fetch(url),
+            timeout((0, _config.TIMEOUT_SECONDS))
+        ]);
+        const data = await res.json();
+        if (!res.ok) throw new Error(`${data.message} (${res.status})`);
+        console.log(data);
+        return data;
+    } catch (err) {
+        throw err;
+    }
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","regenerator-runtime":"f6ot0","./config":"2hPh4"}],"2hPh4":[function(require,module,exports,__globalThis) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "API_URL", ()=>API_URL);
+parcelHelpers.export(exports, "TIMEOUT_SECONDS", ()=>TIMEOUT_SECONDS);
+const API_URL = 'https://forkify-api.jonas.io/api/v2/recipes';
+const TIMEOUT_SECONDS = 10;
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"3wx5k":[function(require,module,exports,__globalThis) {
 // import icons from '../img/icons.svg'; // parcel 1
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);

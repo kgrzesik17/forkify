@@ -23,8 +23,9 @@ async function controlRecipes() {
     await model.loadRecipe(id);
 
     // 2) rendering recipe
-    resultsView.render(model.state.search.results);
+    resultsView.render(model.getSearchResultsPage());
     recipeView.render(model.state.recipe);
+    paginationView.render(model.state.search);
   } catch (err) {
     recipeView.renderError();
   }
@@ -44,7 +45,7 @@ const controlSearchResults = async function () {
     // 3) render results
     // resultsView.render(model.state.search.results);
 
-    resultsView.render(model.getSearchResultsPage(1));
+    resultsView.render(model.getSearchResultsPage());
 
     // 4) render initial pagination buttons
     paginationView.render(model.state.search);

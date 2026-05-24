@@ -737,8 +737,9 @@ async function controlRecipes() {
         // 1) loading recipe
         await _modelJs.loadRecipe(id);
         // 2) rendering recipe
-        (0, _resultsViewJsDefault.default).render(_modelJs.state.search.results);
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
         (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
+        (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {
         (0, _recipeViewJsDefault.default).renderError();
     }
@@ -753,7 +754,7 @@ const controlSearchResults = async function() {
         await _modelJs.loadSearchResults(query);
         // 3) render results
         // resultsView.render(model.state.search.results);
-        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage(1));
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
         // 4) render initial pagination buttons
         (0, _paginationViewJsDefault.default).render(_modelJs.state.search);
     } catch (err) {

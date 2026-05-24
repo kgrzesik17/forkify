@@ -724,7 +724,9 @@ var _searchViewJsDefault = parcelHelpers.interopDefault(_searchViewJs);
 var _resultsViewJs = require("./views/resultsView.js");
 var _resultsViewJsDefault = parcelHelpers.interopDefault(_resultsViewJs);
 var _runtime = require("regenerator-runtime/runtime");
-if (module.hot) module.hot.accept();
+// if (module.hot) {
+//   module.hot.accept();
+// }
 async function controlRecipes() {
     try {
         const id = window.location.hash.slice(1);
@@ -734,21 +736,22 @@ async function controlRecipes() {
         await _modelJs.loadRecipe(id);
         // 2) rendering recipe
         (0, _resultsViewJsDefault.default).render(_modelJs.state.search.results);
+        (0, _recipeViewJsDefault.default).render(_modelJs.state.recipe);
     } catch (err) {
         (0, _recipeViewJsDefault.default).renderError();
     }
 }
 const controlSearchResults = async function() {
     try {
-        (0, _resultsViewJsDefault.default).renderSpinner();
         // 1) get search query
         const query = (0, _searchViewJsDefault.default).getQuery();
         if (!query) return;
-        // 2) load search results
+        (0, _resultsViewJsDefault.default).renderSpinner();
+        // 2) load search results n
         await _modelJs.loadSearchResults(query);
         // 3) render results
-        console.log(_modelJs.state.search.results);
-        (0, _resultsViewJsDefault.default).render(_modelJs.state.search.results);
+        // resultsView.render(model.state.search.results);
+        (0, _resultsViewJsDefault.default).render(_modelJs.getSearchResultsPage());
     } catch (err) {
         console.log(err);
     }
@@ -2018,6 +2021,7 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 parcelHelpers.export(exports, "loadRecipe", ()=>loadRecipe);
 parcelHelpers.export(exports, "loadSearchResults", ()=>loadSearchResults);
+parcelHelpers.export(exports, "getSearchResultsPage", ()=>getSearchResultsPage);
 var _regeneratorRuntime = require("regenerator-runtime");
 var _configJs = require("./config.js");
 var _helpersJs = require("./helpers.js");
@@ -2025,7 +2029,9 @@ const state = {
     recipe: {},
     search: {
         query: '',
-        results: []
+        results: [],
+        page: 1,
+        resultePerPage: (0, _configJs.RES_PER_PAGE)
     }
 };
 const loadRecipe = async function(id) {
@@ -2065,6 +2071,12 @@ const loadSearchResults = async function(query) {
         console.error(`${err} \u{1F4A5}\u{1F4A5}\u{1F4A5}`);
         throw err;
     }
+};
+const getSearchResultsPage = function(page = state.search.page) {
+    state.search.page = page;
+    const start = (page - 1) * state.search.resultePerPage;
+    const end = page * state.search.resultePerPage;
+    return state.search.results.slice(start, end);
 };
 
 },{"regenerator-runtime":"f6ot0","./config.js":"2hPh4","./helpers.js":"7nL9P","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"f6ot0":[function(require,module,exports,__globalThis) {
@@ -2657,8 +2669,10 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "API_URL", ()=>API_URL);
 parcelHelpers.export(exports, "TIMEOUT_SECONDS", ()=>TIMEOUT_SECONDS);
+parcelHelpers.export(exports, "RES_PER_PAGE", ()=>RES_PER_PAGE);
 const API_URL = 'https://forkify-api.jonas.io/api/v2/recipes/';
 const TIMEOUT_SECONDS = 10;
+const RES_PER_PAGE = 10;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT"}],"jnFvT":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
@@ -2831,8 +2845,9 @@ parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 class View {
-    #data;
+    _data;
     render(data) {
+        console.log(data);
         if (!data || Array.isArray(data) && data.length === 0) return this.renderError();
         this._data = data;
         const markup = this._generateMarkup();

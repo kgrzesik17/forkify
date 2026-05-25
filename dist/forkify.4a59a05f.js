@@ -2904,7 +2904,7 @@ class View {
             if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== '') // console.log('💥', newEl.firstChild.nodeValue.trim());
             curEl.textContent = newEl.textContent;
             // updates changes ATTRIBUTES
-            if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach((attr)=>curEl.setAttribute(attr.nme, attr.value));
+            if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach((attr)=>curEl.setAttribute(attr.name, attr.value));
         });
     }
     _clear() {
@@ -3089,7 +3089,6 @@ class ResultsView extends (0, _viewDefault.default) {
     }
     _generateMarkupPreview(result) {
         const id = window.location.hash.slice(1);
-        console.log(id);
         return `
       <li class="preview">
         <a class="preview__link ${result.id === id ? 'preview__link--active' : ''}" href="#${result.id}">

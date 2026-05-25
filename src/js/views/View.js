@@ -38,7 +38,7 @@ export default class View {
       // updates changes ATTRIBUTES
       if (!newEl.isEqualNode(curEl)) {
         Array.from(newEl.attributes).forEach(attr =>
-          curEl.setAttribute(attr.nme, attr.value),
+          curEl.setAttribute(attr.name, attr.value),
         );
       }
     });

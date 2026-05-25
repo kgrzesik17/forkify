@@ -1,5 +1,5 @@
-7538
-28D:\xampp\htdocs\forkify\dist134240953990823611 1
+7539
+28D:\xampp\htdocs\forkify\dist134242067184267107 1
 55D:\xampp\htdocs\forkify\node_modules\picomatch\posix.js134235970705079048 0
 80D:\xampp\htdocs\forkify\node_modules\core-js\full\typed-array\find-last-index.js134236007104390902 0
 71D:\xampp\htdocs\forkify\node_modules\core-js\es\array\virtual\filter.js134236007104001530 0
@@ -63,10 +63,6 @@
 65D:\xampp\htdocs\forkify\node_modules\core-js\full\array\concat.js134236007099211701 0
 53D:\xampp\htdocs\forkify\node_modules\core-js\index.js134236007108236357 0
 52D:\xampp\htdocs\forkify\forkify-flowchart-part-2.png134061337152412127 0
-57D:\xampp\htdocs\forkify\node_modules\core-js\web\index.js134236007108435606 0
-62D:\xampp\htdocs\forkify\node_modules\semver\functions\valid.js134235970706658876 0
-66D:\xampp\htdocs\forkify\node_modules\core-js\features\math\tanh.js134236007114810230 0
-45D:\xampp\htdocs\forkify\node_modules\get-port134235970704754004 1
 84D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.string.is-well-formed.js134236007103277151 0
 44D:\xampp\htdocs\forkify\node_modules\globals134235970704939551 1
 71D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.set.join.js134236007103203452 0
@@ -118,7 +114,7 @@
 49D:\xampp\htdocs\forkify\node_modules\caniuse-lite134235970713324820 1
 98D:\xampp\htdocs\forkify\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed134235970706283998 1
 78D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.typed-array.reverse.js134236007102207052 0
-41D:\xampp\htdocs\forkify\src\js\helpers.js134237634936035563 0
+41D:\xampp\htdocs\forkify\src\js\helpers.js134242009358016502 0
 78D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.array.find-last.js134236007102436499 0
 56D:\xampp\htdocs\forkify\node_modules\core-js\actual\date134236007115827407 1
 42D:\xampp\htdocs\forkify\src\sass\main.scss134061337153025395 0
@@ -140,7 +136,7 @@
 27D:\xampp\htdocs\forkify\src134235967144094436 1
 71D:\xampp\htdocs\forkify\node_modules\core-js\stable\string\match-all.js134236007110676752 0
 67D:\xampp\htdocs\forkify\node_modules\type-fest\ts41\camel-case.d.ts134235970705228727 0
-44D:\xampp\htdocs\forkify\src\js\views\View.js134240953088512337 0
+44D:\xampp\htdocs\forkify\src\js\views\View.js134242061325802968 0
 85D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.typed-array.from-async.js134236007103387299 0
 72D:\xampp\htdocs\forkify\node_modules\core-js\features\array\unique-by.js134236007116815558 0
 73D:\xampp\htdocs\forkify\node_modules\core-js\stable\array\virtual\with.js134236007117660424 0
@@ -177,7 +173,7 @@
 80D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\float32-array.js134236007105061932 0
 66D:\xampp\htdocs\forkify\node_modules\core-js\features\map\index.js134236007107931090 0
 77D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\css-resize.js134235970709123947 0
-51D:\xampp\htdocs\forkify\src\js\views\resultsView.js134238603098166223 0
+51D:\xampp\htdocs\forkify\src\js\views\resultsView.js134242065164841207 0
 46D:\xampp\htdocs\forkify\node_modules\term-size134235970705378685 1
 45D:\xampp\htdocs\forkify\src\sass\_header.scss134061337152935101 0
 82D:\xampp\htdocs\forkify\node_modules\core-js\internals\array-buffer-is-detached.js134236007097635970 0
@@ -188,7 +184,7 @@
 63D:\xampp\htdocs\forkify\node_modules\core-js\es\symbol\match.js134236007110716753 0
 55D:\xampp\htdocs\forkify\node_modules\chalk\package.json134235970704954775 0
 71D:\xampp\htdocs\forkify\node_modules\core-js\full\typed-array\values.js134236007117318175 0
-36D:\xampp\htdocs\forkify\src\js\views134238584915965536 1
+36D:\xampp\htdocs\forkify\src\js\views134241076249224618 1
 79D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\set-from-hex.js134236007113056428 0
 50D:\xampp\htdocs\forkify\node_modules\node-releases134235970704973899 1
 80D:\xampp\htdocs\forkify\node_modules\@parcel\core\test\SymbolPropagation.test.js134235970707986290 0
@@ -199,7 +195,7 @@
 84D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\input-placeholder.js134235970710664410 0
 66D:\xampp\htdocs\forkify\node_modules\immutable\dist\immutable.d.ts134235971590613232 0
 66D:\xampp\htdocs\forkify\node_modules\weak-lru-cache\dist\index.cjs134235970704239117 0
-46D:\xampp\htdocs\forkify\src\sass\_preview.scss134061337152966811 0
+46D:\xampp\htdocs\forkify\src\sass\_preview.scss134242067400077174 0
 77D:\xampp\htdocs\forkify\node_modules\@parcel\core\src\public\PluginOptions.js134235970707608605 0
 84D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.async-iterator.reduce.js134236007102586650 0
 72D:\xampp\htdocs\forkify\node_modules\core-js\full\array\virtual\index.js134236007108036359 0
@@ -217,7 +213,7 @@
 68D:\xampp\htdocs\forkify\node_modules\core-js\full\instance\concat.js134236007099221700 0
 63D:\xampp\htdocs\forkify\node_modules\@parcel\graph\src\index.js134235970705888694 0
 48D:\xampp\htdocs\forkify\node_modules\ansi-styles134235970704723873 1
-40D:\xampp\htdocs\forkify\src\js\config.js134240948228858472 0
+40D:\xampp\htdocs\forkify\src\js\config.js134241095350184711 0
 73D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\tls1-2.js134235970712623667 0
 84D:\xampp\htdocs\forkify\node_modules\lmdb\dependencies\lz4\lib\dll\example\README.md134235970708524427 0
 70D:\xampp\htdocs\forkify\node_modules\core-js\full\symbol\observable.js134236007111252479 0
@@ -230,9 +226,19 @@
 69D:\xampp\htdocs\forkify\node_modules\core-js\features\map\group-by.js134236007106682045 0
 71D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.symbol.match.js134236007102051936 0
 66D:\xampp\htdocs\forkify\node_modules\core-js\es\typed-array\map.js134236007110471525 0
-44D:\xampp\htdocs\forkify\src\js\controller.js134240951704920153 0
-39D:\xampp\htdocs\forkify\src\js\model.js134240952134616763 0
+44D:\xampp\htdocs\forkify\src\js\controller.js134242063642733369 0
+39D:\xampp\htdocs\forkify\src\js\model.js134242023877697286 0
 81D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\to-spliced.js134236007115651043 0
+60D:\xampp\htdocs\forkify\node_modules\picocolors\package.json134235970704629301 0
+75D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\push.js134236007111915961 0
+65D:\xampp\htdocs\forkify\node_modules\weak-lru-cache\tests\test.js134235970704988903 0
+41D:\xampp\htdocs\forkify\node_modules\.bin134235971592738677 1
+83D:\xampp\htdocs\forkify\node_modules\core-js\internals\array-iteration-from-last.js134236007097806571 0
+71D:\xampp\htdocs\forkify\node_modules\@parcel\node-resolver-core\LICENSE134235970704179101 0
+66D:\xampp\htdocs\forkify\node_modules\@swc\helpers\esm\_defaults.js134235970708868827 0
+63D:\xampp\htdocs\forkify\node_modules\msgpackr-extract\README.md134235970705033903 0
+54D:\xampp\htdocs\forkify\src\js\views\paginationView.js134241093968329098 0
+75D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.iterator.zip.js134236007102788913 0
 91D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.disposable-stack.constructor.js134236007102636665 0
 65D:\xampp\htdocs\forkify\node_modules\core-js\stable\array\flat.js134236007105028308 0
 73D:\xampp\htdocs\forkify\node_modules\core-js\internals\to-property-key.js134236007115392095 0
@@ -244,7 +250,7 @@
 54D:\xampp\htdocs\forkify\node_modules\tslib\LICENSE.txt134235970705563995 0
 88D:\xampp\htdocs\forkify\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_dump.c134235970706948979 0
 62D:\xampp\htdocs\forkify\node_modules\semver\functions\major.js134235970706119172 0
-50D:\xampp\htdocs\forkify\src\js\views\recipeView.js134240953990627891 0
+50D:\xampp\htdocs\forkify\src\js\views\recipeView.js134242022895754568 0
 58D:\xampp\htdocs\forkify\node_modules\core-js\stable\regexp134236007115947593 1
 68D:\xampp\htdocs\forkify\node_modules\core-js\actual\instance\keys.js134236007109900799 0
 79D:\xampp\htdocs\forkify\node_modules\source-map-js\lib\source-map-consumer.d.ts134235971590373190 0
@@ -265,11 +271,6 @@
 71D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.date.to-json.js134236007101036495 0
 50D:\xampp\htdocs\forkify\src\js\views\searchView.js134238565152091914 0
 41D:\xampp\htdocs\forkify\src\img\icons.svg134061337152568471 0
-60D:\xampp\htdocs\forkify\node_modules\picocolors\package.json134235970704629301 0
-75D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\push.js134236007111915961 0
-65D:\xampp\htdocs\forkify\node_modules\weak-lru-cache\tests\test.js134235970704988903 0
-41D:\xampp\htdocs\forkify\node_modules\.bin134235971592738677 1
-83D:\xampp\htdocs\forkify\node_modules\core-js\internals\array-iteration-from-last.js134236007097806571 0
 63D:\xampp\htdocs\forkify\node_modules\core-js\full\string\big.js134236007098451456 0
 55D:\xampp\htdocs\forkify\node_modules\.package-lock.json134236815478822404 0
 64D:\xampp\htdocs\forkify\node_modules\@parcel\fs\lib\index.js.map134235970705873703 0
@@ -381,6 +382,10 @@
 72D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.set.every.js134236007103136990 0
 75D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.object.is-frozen.js134236007101476297 0
 43D:\xampp\htdocs\forkify\node_modules\fracty134236815478187306 1
+57D:\xampp\htdocs\forkify\node_modules\core-js\web\index.js134236007108435606 0
+62D:\xampp\htdocs\forkify\node_modules\semver\functions\valid.js134235970706658876 0
+66D:\xampp\htdocs\forkify\node_modules\core-js\features\math\tanh.js134236007114810230 0
+45D:\xampp\htdocs\forkify\node_modules\get-port134235970704754004 1
 65D:\xampp\htdocs\forkify\node_modules\ordered-binary\tests\test.js134235970704963896 0
 45D:\xampp\htdocs\forkify\node_modules\has-flag134235970704723873 1
 73D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.promise.reject.js134236007101601356 0
@@ -754,9 +759,9 @@
 67D:\xampp\htdocs\forkify\node_modules\core-js\full\map\map-values.js134236007110406376 0
 71D:\xampp\htdocs\forkify\node_modules\type-fest\ts41\delimiter-case.d.ts134235970705553993 0
 81D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.iterator.zip-keyed.js134236007102784032 0
+72D:\xampp\htdocs\forkify\node_modules\core-js\es\data-view\get-float16.js134236007105910751 0
 62D:\xampp\htdocs\forkify\node_modules\type-fest\ts41\index.d.ts134235970705849167 0
 73D:\xampp\htdocs\forkify\node_modules\core-js\features\suppressed-error.js134236007114671139 0
-72D:\xampp\htdocs\forkify\node_modules\core-js\es\data-view\get-float16.js134236007105910751 0
 81D:\xampp\htdocs\forkify\node_modules\core-js\features\string\virtual\pad-start.js134236007111531447 0
 78D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.observable.from.js134236007103036846 0
 68D:\xampp\htdocs\forkify\node_modules\type-fest\ts41\pascal-case.d.ts134235970706184097 0
@@ -1725,9 +1730,6 @@
 94D:\xampp\htdocs\forkify\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mtest3.c134235970707374133 0
 77D:\xampp\htdocs\forkify\node_modules\core-js\es\string\virtual\starts-with.js134236007114132163 0
 66D:\xampp\htdocs\forkify\node_modules\msgpackr-extract\package.json134235970704939551 0
-71D:\xampp\htdocs\forkify\node_modules\@parcel\node-resolver-core\LICENSE134235970704179101 0
-66D:\xampp\htdocs\forkify\node_modules\@swc\helpers\esm\_defaults.js134235970708868827 0
-63D:\xampp\htdocs\forkify\node_modules\msgpackr-extract\README.md134235970705033903 0
 82D:\xampp\htdocs\forkify\node_modules\core-js\stable\typed-array\find-last-index.js134236007104415905 0
 80D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\to-sorted.js134236007115555825 0
 68D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\regions\VG.js134235970712854669 0
@@ -3287,10 +3289,10 @@
 77D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.date.to-iso-string.js134236007101031466 0
 86D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.uint8-array.from-base64.js134236007103422304 0
 67D:\xampp\htdocs\forkify\node_modules\core-js\es\typed-array\some.js134236007113696696 0
-48D:\xampp\htdocs\forkify\dist\forkify.4a59a05f.js134240953990803613 0
+48D:\xampp\htdocs\forkify\dist\forkify.4a59a05f.js134242065165190206 0
 91D:\xampp\htdocs\forkify\node_modules\@swc\helpers\_\_skip_first_generator_next\package.json134235970707178968 0
 76D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.date.to-primitive.js134236007101036495 0
-53D:\xampp\htdocs\forkify\dist\forkify.f7626f62.css.map134240949509843834 0
+53D:\xampp\htdocs\forkify\dist\forkify.f7626f62.css.map134242067184262107 0
 75D:\xampp\htdocs\forkify\node_modules\core-js\features\async-iterator\map.js134236007110486527 0
 87D:\xampp\htdocs\forkify\node_modules\core-js\modules\es.disposable-stack.constructor.js134236007101051629 0
 65D:\xampp\htdocs\forkify\node_modules\core-js\features\typed-array134236007117630529 1
@@ -3610,7 +3612,6 @@
 76D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.iterator.take.js134236007102758874 0
 68D:\xampp\htdocs\forkify\node_modules\core-js\full\object\group-by.js134236007106737042 0
 80D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.iterator.to-async.js134236007102768869 0
-75D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.iterator.zip.js134236007102788913 0
 73D:\xampp\htdocs\forkify\node_modules\core-js\modules\esnext.json.parse.js134236007102798826 0
 77D:\xampp\htdocs\forkify\node_modules\core-js\internals\to-positive-integer.js134236007115260478 0
 66D:\xampp\htdocs\forkify\node_modules\core-js\actual\global-this.js134236007106461573 0
@@ -5094,7 +5095,7 @@
 70D:\xampp\htdocs\forkify\node_modules\core-js\features\iterator\find.js134236007104606180 0
 71D:\xampp\htdocs\forkify\node_modules\core-js\features\iterator\index.js134236007107911066 0
 72D:\xampp\htdocs\forkify\node_modules\core-js\features\data-view\index.js134236007107866058 0
-47D:\xampp\htdocs\forkify\dist\icons.21bad73c.svg134240949509769221 0
+47D:\xampp\htdocs\forkify\dist\icons.21bad73c.svg134242062891841120 0
 76D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\to-string.js134236007115847431 0
 61D:\xampp\htdocs\forkify\node_modules\core-js\actual\escape.js134236007102356493 0
 72D:\xampp\htdocs\forkify\node_modules\core-js\features\iterator\reduce.js134236007112283921 0
@@ -5228,7 +5229,7 @@
 69D:\xampp\htdocs\forkify\node_modules\core-js\features\array\values.js134236007117268169 0
 67D:\xampp\htdocs\forkify\node_modules\core-js\features\array\with.js134236007117620527 0
 77D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\concat.js134236007099196698 0
-47D:\xampp\htdocs\forkify\dist\icons.0809ef97.svg134240949509829256 0
+47D:\xampp\htdocs\forkify\dist\icons.0809ef97.svg134242062891856107 0
 62D:\xampp\htdocs\forkify\node_modules\@parcel\watcher\src\macos134235970706269003 1
 74D:\xampp\htdocs\forkify\node_modules\core-js\es\typed-array\int16-array.js134236007108495729 0
 82D:\xampp\htdocs\forkify\node_modules\core-js\features\array\virtual\copy-within.js134236007099576670 0
@@ -5363,7 +5364,7 @@
 68D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\regions\BE.js134235970707109287 0
 66D:\xampp\htdocs\forkify\node_modules\core-js\es\promise\finally.js134236007104150926 0
 64D:\xampp\htdocs\forkify\node_modules\core-js\es\promise\index.js134236007107770942 0
-46D:\xampp\htdocs\forkify\dist\logo.726d37a8.png134240949509843834 0
+46D:\xampp\htdocs\forkify\dist\logo.726d37a8.png134242062891866113 0
 64D:\xampp\htdocs\forkify\node_modules\core-js\es\object\assign.js134236007097943445 0
 76D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\dragndrop.js134235970709708763 0
 73D:\xampp\htdocs\forkify\node_modules\core-js\es\object\define-property.js134236007099872030 0
@@ -5615,7 +5616,7 @@
 87D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\prefers-color-scheme.js134235970711868493 0
 70D:\xampp\htdocs\forkify\node_modules\caniuse-lite\data\features\es5.js134235970709803913 0
 75D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\from-hex.js134236007105581600 0
-49D:\xampp\htdocs\forkify\dist\forkify.f7626f62.css134240949509799223 0
+49D:\xampp\htdocs\forkify\dist\forkify.f7626f62.css134242067184257106 0
 71D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\from.js134236007105636621 0
 75D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\includes.js134236007107171038 0
 78D:\xampp\htdocs\forkify\node_modules\core-js\actual\typed-array\int16-array.js134236007108490728 0
@@ -6783,7 +6784,7 @@
 67D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_inherits.mjs134235970709504501 0
 73D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_inherits_loose.mjs134235970709514503 0
 86D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_initializer_define_property.mjs134235970709514503 0
-52D:\xampp\htdocs\forkify\dist\forkify.4a59a05f.js.map134240953990823611 0
+52D:\xampp\htdocs\forkify\dist\forkify.4a59a05f.js.map134242065165205208 0
 82D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_interop_require_default.mjs134235970709529506 0
 77D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_is_native_function.mjs134235970709539513 0
 76D:\xampp\htdocs\forkify\node_modules\@swc\helpers\src\_iterable_to_array.mjs134235970709549542 0
@@ -7535,5 +7536,5 @@
 48D:\xampp\htdocs\forkify\node_modules\.bin\semver134235970713985410 0
 52D:\xampp\htdocs\forkify\node_modules\.bin\semver.ps1134235970713980410 0
 68D:\xampp\htdocs\forkify\node_modules\.bin\update-browserslist-db.cmd134235970713985410 0
-49D:\xampp\htdocs\forkify\dist\favicon.8b2f57bf.png134240949510018850 0
-39D:\xampp\htdocs\forkify\dist\index.html134240949509799223 0
+49D:\xampp\htdocs\forkify\dist\favicon.8b2f57bf.png134242062891936800 0
+39D:\xampp\htdocs\forkify\dist\index.html134241084784896506 0

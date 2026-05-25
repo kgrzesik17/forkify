@@ -402,12 +402,12 @@ body {
 }
 
 .preview__link:hover {
-  background-color: #f9f5f3;
+  background-color: #f2efee;
   transform: translateY(-2px);
 }
 
 .preview__link--active {
-  background-color: #f9f5f3;
+  background-color: #f2efee;
 }
 
 .preview__fig {
